@@ -1,0 +1,3 @@
+[submodule ".devcontainer/settings"]
+	path = .devcontainer/settings
+	url = git@github.com:ryuji0123/settings.git
