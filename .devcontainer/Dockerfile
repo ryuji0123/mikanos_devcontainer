@@ -18,3 +18,5 @@ ENV SETTING_PATH $HOME/settings
 COPY settings $SETTING_PATH
 WORKDIR $SETTING_PATH
 RUN sh $SETTING_PATH/setup.sh
+
+ENV OS_DIR /workspaces/mikanos-devcontainer/mikanos
